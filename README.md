@@ -62,6 +62,12 @@ If you use Spedi in an academic paper please cite:
 # Usage
 Build the project and try it on one of the binaries in our benchmark suite
  available in this [repository].
+ 
+ Run the following commands to build the project: 
+```sh
+$ cmake .
+$ make
+```
 
 The following command will instruct `spedi`to speculatively disassemble
  the `.text` section,
